@@ -1,0 +1,154 @@
+.imagebg{
+    background-image:url("img/musician.jpg");
+    filter: grayscale(100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 340px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.bgimage-text-1{
+   font-family: Tahoma;
+   color: white;
+   font-size: 20px;
+}
+.bgimage-text-2{
+   font-family: Tahoma;
+   color: white;
+   font-size: 10px;
+}
+.headingfont-1{
+    font-family:"Open Sans", sans-serif;
+}
+.headingfont-2{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.headingfont-3{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.mscontent{
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.albumimg{
+    width: 180px;
+    height: 160px;
+}
+.albumimg-2{
+    width: 280px;
+    height: 260px;
+}
+.centerimg{
+    text-align: center;
+}
+.centerimg-2{
+    text-align: center;
+}
+.centersong{
+    border-radius: 15px;
+    max-width: 90%;
+    margin: 10px auto 0px;
+}
+.songimg{
+    height: 60px;
+    width: 60px;
+}
+.footer{
+    background-color: black;
+    font-family: Verdana;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.footerhd{
+    font-family:"Open Sans" , sans-serif;
+    font-size: 15px;
+}
+.ftcontent{
+    color: white;
+    font-size: 12px;
+}
+.ftcontent:hover{
+    color: inherit;
+}
+@media (min-width: 768px) {
+    .imagebg {
+    background-image:url("img/musician.jpg");
+    filter: grayscale(100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 340px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    }
+    .bgimage-text-1{
+       font-family: Tahoma;
+       color: white;
+       font-size: 35px;
+    }
+    .bgimage-text-2{
+       font-family: Tahoma;
+       color: white;
+       font-size: 20px;
+    }
+    .albumimg{
+        width: 250px;
+        height: 220px;
+    }
+    .albumimg-2{
+        width: 330px;
+        height: 290px;
+    }
+    .headingfont-2{
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+    .headingfont-3{
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .centerimg{
+        text-align: initial;
+    }
+    .centerimg-2{
+        text-align: center;
+    }
+    .centersong{
+        border-radius: 15px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .songimg{
+        height: 80px;
+        width: 80px;
+    }
+    .footerhd{
+        font-size: 20px;
+    }
+    .ftcontent{
+        color: white;
+        font-size: 15px;
+    }
+    .ftcontent:hover{
+        color: inherit;
+    }
+    .hidnavitem{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .navdropdown{
+        display: none;
+    }
+}
+@media(max-width: 576px){
+    .searchinput{
+        width: 180px;
+    }
+}

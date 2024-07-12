@@ -1,0 +1,24 @@
+#album{
+    color: black;
+}
+#album:hover{
+    color:blue;
+    cursor: pointer;
+}
+#edit{
+    color: black;
+}
+#edit:hover{
+    color:blue;
+    cursor: pointer;
+}
+#delete{
+    color: black;
+}
+#delete:hover{
+    color:blue;
+    cursor: pointer;
+}
+.editformm{
+    display:none;
+}

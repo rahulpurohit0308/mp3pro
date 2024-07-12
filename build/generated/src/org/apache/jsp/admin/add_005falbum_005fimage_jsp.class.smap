@@ -1,0 +1,15 @@
+SMAP
+add_005falbum_005fimage_jsp.java
+JSP
+*S JSP
+*F
++ 0 add_album_image.jsp
+admin/add_album_image.jsp
+*L
+5,5:46
+10,21:52
+30:73
+31:74,3
+32,4:77
+36,11:82
+*E
