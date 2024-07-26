@@ -56,14 +56,11 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <link rel=\"stylesheet\" href=\"assets/css/metisMenu.css\">\n");
       out.write("    <link rel=\"stylesheet\" href=\"assets/css/owl.carousel.min.css\">\n");
       out.write("    <link rel=\"stylesheet\" href=\"assets/css/slicknav.min.css\">\n");
-      out.write("    <!-- amchart css -->\n");
       out.write("    <link rel=\"stylesheet\" href=\"https://www.amcharts.com/lib/3/plugins/export/export.css\" type=\"text/css\" media=\"all\" />\n");
-      out.write("    <!-- others css -->\n");
       out.write("    <link rel=\"stylesheet\" href=\"assets/css/typography.css\">\n");
       out.write("    <link rel=\"stylesheet\" href=\"assets/css/default-css.css\">\n");
       out.write("    <link rel=\"stylesheet\" href=\"assets/css/styles.css\">\n");
       out.write("    <link rel=\"stylesheet\" href=\"assets/css/responsive.css\">\n");
-      out.write("    <!-- modernizr css -->\n");
       out.write("    <script src=\"assets/js/vendor/modernizr-2.8.3.min.js\"></script>\n");
       out.write("</head>\n");
       out.write("<body>\n");
